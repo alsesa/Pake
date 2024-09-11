@@ -3,14 +3,15 @@
     {
       "url": "https://weread.qq.com",
       "url_type": "web",
-      "hide_title_bar": true,
+      "hide_title_bar": false,
       "fullscreen": false,
       "width": 1200,
       "height": 780,
       "resizable": true,
       "always_on_top": false,
       "activation_shortcut": "",
-      "disabled_web_shortcuts": false
+      "disabled_web_shortcuts": false,
+      "inject": "./src-tauri/inject/custom.js"
     }
   ],
   "user_agent": {
